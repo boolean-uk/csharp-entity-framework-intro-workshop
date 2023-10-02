@@ -1,4 +1,4 @@
-# csharp-entity-framework-intro-workshop
+# C# Entity Framework Introduction Workshop
 
 ## created project with these commands
 
@@ -21,11 +21,14 @@ dotnet new webapi --name workshop.wwwapi
 */**/obj/Debug   
 */**/obj/Release   
 ```
--ensure both 'appsettings.json' & 'appsettings.Development.json' are untracked.
+-ensure both 'appsettings.json' & 'appsettings.Development.json' are 'Ignore and untracked.'
 
 
-## entity framework dependencies
+## Entity Framework Dependencies   
 
+Install these using the nuget package manager.  Ensure you have the api set as the default project!  
+
+```
 install-packages microsoft.entityframeworkcore.design  
 
 install-packages microsoft.entityframeworkcore.design  
@@ -35,7 +38,7 @@ install-packages microsoft.entityframeworkcore.design
 install-packages microsoft.entityframeworkcore.design  
 
 install-packages npgsql.entityframeworkcore.postgresql  
-
+```
 
 ## 
 
