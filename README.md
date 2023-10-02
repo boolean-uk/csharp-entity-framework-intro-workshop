@@ -15,12 +15,12 @@ dotnet new webapi --name workshop.wwwapi
 
 -ensure that you have run the 'dotnet new gitignore' command in the root of the folder (where the .sln resides)  
 -ensure that you have added the following to the gitignore:  
-
+```
 */**/bin/Debug   
 */**/bin/Release   
 */**/obj/Debug   
 */**/obj/Release   
-
+```
 -ensure both 'appsettings.json' & 'appsettings.Development.json' are untracked.
 
 
